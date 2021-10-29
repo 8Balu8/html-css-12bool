@@ -1,7 +1,7 @@
 .box {
     height: 50px;
     padding: 10px;
-    background-color: blue;
+    background-color: #006bfa;
     border: 1px solid white;
     color: white;
     font-size: 23px;
@@ -9,8 +9,9 @@
 }
 
 .nested-box {
-    background-color: lightgrey;
+    background-color: #00e164;    ;
     border: 1px solid white;
     height: 100%;
-    font-size: 15px;
+    font-size: 14px;
+    padding: 4px;
 }
