@@ -1,0 +1,24 @@
+.box {
+    height: 50px;
+    padding: 10px;
+    background-color: #006bfa;
+    border: 1px solid white;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+}
+
+.nested-box {
+    background-color: #00e164;
+    border: 1px solid white;
+    height: 100%;
+    font-size: 14px;
+}
+
+/* Media Query LG */
+@media screen and (max-width: 992px) {
+    .container {
+        width: 900px;
+    }
+    .col-lg-
+}    
