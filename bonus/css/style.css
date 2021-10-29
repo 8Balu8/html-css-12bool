@@ -18,7 +18,14 @@
 /* Media Query LG */
 @media screen and (max-width: 992px) {
     .container {
-        width: 900px;
+        max-width: 900px;
     }
-    .col-lg-
+    .col-lg-2 {
+        flex-basis: calc( (100% / 12) * 2);
+        max-width: calc( (100% / 12) * 2);
+    }
+    .col-lg-12 {
+        flex-basis: calc( (100% / 12) * 12);
+        max-width: calc( (100% / 12) * 12);
+    }
 }    
